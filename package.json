@@ -1,10 +1,11 @@
 {
-  "name": "parcel-crime-tts",
-  "version": "1.0.0",
+  "name": "parcel-transformer-tts",
+  "version": "0.0.15",
   "description": "ttypescript transformer for parcel",
   "main": "dist/transformer.js",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepublish": "node ./prepub.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "dependencies": {
     "@parcel/plugin": "^2.7.0",
     "@parcel/source-map": "^2.1.0",
+    "@types/node": "^18.7.14",
     "ttypescript": "^1.5.13",
     "typescript": "^4.8.2"
   }
