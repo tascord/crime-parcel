@@ -1,0 +1,26 @@
+{
+  "name": "parcel-crime-tts",
+  "version": "1.0.0",
+  "description": "ttypescript transformer for parcel",
+  "main": "dist/transformer.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tascord/crime-parcel.git"
+  },
+  "keywords": [],
+  "author": "tascord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tascord/crime-parcel/issues"
+  },
+  "homepage": "https://github.com/tascord/crime-parcel#readme",
+  "dependencies": {
+    "@parcel/plugin": "^2.7.0",
+    "@parcel/source-map": "^2.1.0",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.8.2"
+  }
+}
