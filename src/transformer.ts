@@ -12,7 +12,6 @@ export default new Transformer({
 
         const config_file = await config.getConfig([
             'parcel-tts.json',
-            'tsconfig.json',
         ], {});
 
         let contents = config_file ?? {};
@@ -54,8 +53,6 @@ function compile(source: string, map: SourceMap | null | undefined, asset: Mutab
             ...(tsconfig.compilerOptions ?? {})
         },
     };
-
-    console.log(config);
 
     const output = tts.transpileModule(source, config);
 

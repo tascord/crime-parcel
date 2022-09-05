@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-tts",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "ttypescript transformer for parcel",
   "main": "dist/transformer.js",
   "scripts": {
